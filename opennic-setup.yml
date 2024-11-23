@@ -11,3 +11,4 @@
   - { role: centos, when: ansible_distribution == "CentOS" and ansible_distribution_major_version in CENTOS_VERSIONS}
   - { role: fedora, when: ansible_distribution == "Fedora" and ansible_distribution_major_version in FEDORA_VERSIONS}
   - { role: ubuntu, when: ansible_distribution == "Ubuntu" and ansible_distribution_major_version in UBUNTU_VERSIONS}
+  - { role: debian, when: ansible_distribution == "Debian" and ansible_distribution_major_version in DEBIAN_VERSIONS}
